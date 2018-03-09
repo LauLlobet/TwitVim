@@ -386,6 +386,15 @@ License: The Vim License applies to twitvim.vim and twitvim.txt (see
 	 - Sign out and then sign in as the other user.
 	 - Then use |:SetLoginTwitter| to authenticate as that user.
 
+	This is the format of .twitvim.token file so you can create it manually 
+	in case OAuth service is not working
+
+>
+	TwitVim 0.8
+
+	{'current_service': 'twitter', 'tokens': [{'token': 'xxxxxxxxxxxx', 'name': 'UserNameJohnDoe', 'service': 'twitter', 'secret': 'XXXXXXXXXXXXXX'}], 'current_user': 'UsernameJohnDoe'} 
+<
+
 
 ------------------------------------------------------------------------------
 3.1.1. OAuth Consumer Key			*TwitVim-OAuth-Consumer*
